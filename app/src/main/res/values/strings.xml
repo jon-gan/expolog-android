@@ -1,0 +1,101 @@
+<resources>
+
+    <string name="app_name">ExpoLog</string>
+
+    <string-array name="titles">
+        <item>Plans</item>
+        <item>Hierarchy</item>
+        <item>Exposures</item>
+        <item>Help</item>
+    </string-array>
+
+    <string-array name="titles_detail">
+        <item>Plan</item>
+        <item>Reflect</item>
+        <item>Edit</item>
+        <item>Exposure</item>
+    </string-array>
+
+    <string name="open_drawer">Open drawer</string>
+    <string name="close_drawer">Close drawer</string>
+
+    <string name="add">Add</string>
+    <string name="plan">Plan</string>
+    <string name="save">Save</string>
+    <string name="send">Send</string>
+    <string name="delete">Delete</string>
+    <string name="delete_plan">Delete Plan</string>
+
+    <string name="planned_exposures">Planned Exposures</string>
+
+    <string name="instructions_activity">Enter a short description of the distressing activity.</string>
+    <string name="discomfort">Discomfort Rating</string>
+    <string-array name="discomfort_ratings">
+        <item>0 (None)</item>
+        <item>1 (None to Low)</item>
+        <item>2 (Low)</item>
+        <item>3 (Low to Moderate)</item>
+        <item>4 (Moderate)</item>
+        <item>5 (Moderate to High)</item>
+        <item>6 (High)</item>
+        <item>7 (High to Extreme)</item>
+        <item>8 (Extreme)</item>
+    </string-array>
+    <string name="avoidance">Avoidance Rating</string>
+    <string-array name="avoidance_ratings">
+        <item>0 (Never)</item>
+        <item>1 (Never to Rarely)</item>
+        <item>2 (Rarely)</item>
+        <item>3 (Rarely to Frequently)</item>
+        <item>4 (Frequently)</item>
+        <item>5 (Frequently to Usually)</item>
+        <item>6 (Usually)</item>
+        <item>7 (Usually to Always)</item>
+        <item>8 (Always)</item>
+    </string-array>
+
+    <string name="hierarchy_header_numeric">No. Exposures,\nDiscomfort,\nand Avoidance</string>
+    <string name="hierarchy_header_activity">Activity</string>
+
+    <string name="activity">Activity</string>
+    <string name="instance">Description of Specific Instance</string>
+
+    <string name="instructions_prediction">What are your thoughts and beliefs about what will happen?</string>
+    <string name="instructions_challenge">Do you recognize any cognitive distortions in the above?</string>
+
+    <string name="instructions_experience">What happened during and after the exposure?</string>
+    <string name="instructions_prediction_challenge_1">These were your thoughts and beliefs before the exposure.</string>
+    <string name="instructions_prediction_challenge_2">These were the cognitive distortions you recognized before the exposure.</string>
+    <string name="instructions_reflection">
+        Reflect on your experience.
+        (e.g. How strongly do you hold on to those beliefs compared to before?
+        Is there anything that you\'ve learned from the experience?)
+    </string>
+    <string name="notes">Notes</string>
+
+    <string name="filter_by_hierarchy_activity">Filter by Hierarchy Activity</string>
+    <string name="completed_exposures">Completed Exposures</string>
+    <string name="date">Date</string>
+
+    <string name="help_introduction">
+        ExpoLog is an app for journaling your exposures that are done
+        as part of cognitive behavioral therapy. Exposures are commonly used in the treatment of
+        anxiety disorders like specific phobias, social anxiety disorder, and obsessive-compulsive
+        disorder.\n\nThis app is not meant to provide professional guidance, and you are encouraged
+        to consult with a trained mental health professional.
+    </string>
+    <string name="help_getting_started_title">
+        Getting Started
+    </string>
+    <string name="help_getting_started_body">
+        In Hierarchy, tap ADD to add a distressing activity to your fear and avoidance hierarchy.
+        Your hierarchy will be sorted according to level of discomfort then avoidance, and a count
+        of how many associated exposures will be shown.\n
+        \nFrom the Plans screen, tap PLAN to prepare for a new exposure.
+        \nAfter completing an exposure, tap the planned exposure then fill in your reflections.
+        \nYour logged exposures will be listed under Exposures.
+    </string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

@@ -1,0 +1,62 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="googleplaydeveloper.jdotspacegdot.expolog.PlanEditFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:text="@string/activity"
+            style="@style/TextViewHeading"
+            />
+
+        <Spinner
+            android:id="@+id/input_hierarchy_activity"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginTop="@dimen/hierarchy_item_padding_top_bottom"
+            android:layout_marginBottom="@dimen/hierarchy_item_padding_top_bottom"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            />
+
+        <TextView
+            android:text="@string/instance"
+            style="@style/TextViewHeading"
+            android:layout_marginTop="40dp"
+            />
+
+        <EditText
+            android:id="@+id/input_instance"
+            style="@style/EditTextInput"
+            />
+
+        <TextView
+            android:text="@string/instructions_prediction"
+            style="@style/TextViewHeading"
+            android:layout_marginTop="40dp"
+            />
+
+        <EditText
+            android:id="@+id/input_prediction"
+            style="@style/EditTextInput"
+            />
+
+        <TextView
+            android:text="@string/instructions_challenge"
+            style="@style/TextViewHeading"
+            android:layout_marginTop="40dp"
+            />
+
+        <EditText
+            android:id="@+id/input_challenge"
+            style="@style/EditTextInput"
+            />
+
+    </LinearLayout>
+
+</ScrollView>

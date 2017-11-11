@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="googleplaydeveloper.jdotspacegdot.expolog.ExposureFragment">
+
+    <CheckBox
+        android:id="@+id/hierarchy_filter_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/hierarchy_item_padding_top_bottom"
+        android:layout_marginBottom="@dimen/hierarchy_item_padding_top_bottom"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="@string/filter_by_hierarchy_activity"
+        />
+
+    <Spinner
+        android:id="@+id/hierarchy_filter_spinner"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginTop="@dimen/hierarchy_item_padding_top_bottom"
+        android:layout_marginBottom="@dimen/hierarchy_item_padding_top_bottom"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        />
+
+    <TextView
+        style="@style/TextViewHeading"
+        android:text="@string/completed_exposures"
+        android:layout_marginTop="40dp"
+        />
+
+    <ListView
+        android:id="@+id/exposure_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+</LinearLayout>

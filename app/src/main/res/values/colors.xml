@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#38CDFF</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#38CDFF</color>
+    <color name="colorHeadingBackground">#2D9CC2</color>
+    <color name="hierarchyNumberExposures">#AAAAAA</color>
+</resources>

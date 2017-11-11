@@ -1,0 +1,72 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="googleplaydeveloper.jdotspacegdot.expolog.HierarchyEditFragment">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="googleplaydeveloper.jdotspacegdot.expolog.HierarchyEditFragment">
+
+        <TextView
+            style="@style/TextViewHeading"
+            android:text="@string/instructions_activity"
+            />
+
+        <EditText
+            android:id="@+id/input_activity"
+            style="@style/EditTextInput"
+            />
+
+        <TextView
+            style="@style/TextViewHeading"
+            android:layout_marginTop="40dp"
+            android:text="@string/discomfort"
+            />
+
+        <TextView
+            android:id="@+id/hierarchy_discomfort_text"
+            style="@style/TextViewBody"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:textSize="@dimen/hierarchy_edit_rating"
+            />
+
+        <SeekBar
+            android:id="@+id/hierarchy_discomfort_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:max="8"
+            />
+
+        <TextView
+            style="@style/TextViewHeading"
+            android:layout_marginTop="40dp"
+            android:text="@string/avoidance"
+            />
+
+        <TextView
+            android:id="@+id/hierarchy_avoidance_text"
+            style="@style/TextViewBody"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:textSize="@dimen/hierarchy_edit_rating"
+            />
+
+        <SeekBar
+            android:id="@+id/hierarchy_avoidance_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:max="8"
+            />
+
+    </LinearLayout>
+
+</ScrollView>
